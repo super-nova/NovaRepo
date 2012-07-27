@@ -70,6 +70,7 @@ bool MyHUD::Update(float fDeltaTime)
 			return false;
 
 		IInventory* pInventory = pPlayer->GetInventory();
+		//asd
 		if(pInventory)
 		{
 			pInventory->Clear();   
